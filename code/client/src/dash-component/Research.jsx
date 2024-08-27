@@ -83,7 +83,7 @@ const Research = () => {
               </h1>
               <p className="text-sm">{truncateText(article.description, 25)}</p>
               <Link to={`/research/${article._id}`}>
-                <button className="bg-purple-500 px-4 py-2 mt-2 rounded-lg text-white">
+                <button className="bg-green-500 px-4 py-2 mt-2 rounded-lg text-white">
                   Read More..
                 </button>
               </Link>
@@ -112,7 +112,7 @@ const Research = () => {
               </h1>
               <p>{truncateText(caseStudy.description, 25)}</p>
               <Link to={`/research/${caseStudy._id}`}>
-                <button className="bg-purple-500 px-4 py-2 mt-2 rounded-lg text-white">
+                <button className="bg-green-500 px-4 py-2 mt-2 rounded-lg text-white">
                   Read More..
                 </button>
               </Link>
@@ -141,7 +141,7 @@ const Research = () => {
               </h1>
               <p>{truncateText(guide.description, 25)}</p>
               <Link to={`/research/${guide._id}`}>
-                <button className="bg-purple-500 px-4 py-2 mt-2 rounded-lg text-white">
+                <button className="bg-green-500 px-4 py-2 mt-2 rounded-lg text-white">
                   Read More..
                 </button>
               </Link>

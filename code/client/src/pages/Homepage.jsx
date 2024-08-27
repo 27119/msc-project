@@ -56,7 +56,7 @@ const Homepage = () => {
               {data.user ? (
                 <Link
                   to={"/dashboard"}
-                  className="flex w-56 text-md justify-center items-center gap-2 rounded bg-purple-500 px-12 py-3  font-medium text-white transition hover:bg-purple-700 focus:outline-none focus:ring "
+                  className="flex w-56 text-md justify-center items-center gap-2 rounded bg-green-500 px-12 py-3  font-medium text-white transition hover:bg-green-700 focus:outline-none focus:ring "
                 >
                   Explore
                   <span className="text-md">
@@ -66,7 +66,7 @@ const Homepage = () => {
               ) : (
                 <Link
                   to={"/signup"}
-                  className="flex w-56 justify-center items-center gap-2 rounded bg-purple-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-700 focus:outline-none focus:ring "
+                  className="flex w-56 justify-center items-center gap-2 rounded bg-green-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-green-700 focus:outline-none focus:ring "
                 >
                   Sign Up Now{" "}
                   <span className="text-md">
@@ -80,7 +80,7 @@ const Homepage = () => {
 
         <img
           alt=""
-          src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://images.unsplash.com/photo-1472313420546-a46e561861d8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           className="h-56 lg:w-11/12 w-full object-cover sm:h-full"
         />
       </section>
@@ -99,7 +99,7 @@ const Homepage = () => {
               className="bg-white rounded-lg shadow-lg overflow-hidden max-w-lg w-full h-80 relative group"
               style={{
                 backgroundImage:
-                  "url('https://images.unsplash.com/photo-1454496522488-7a8e488e8606')",
+                "url('https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -121,7 +121,7 @@ const Homepage = () => {
               className="bg-white rounded-lg shadow-lg overflow-hidden max-w-lg w-full h-80 relative group"
               style={{
                 backgroundImage:
-                  "url('https://images.unsplash.com/photo-1454496522488-7a8e488e8606')",
+                  "url('https://images.unsplash.com/photo-1515344905723-babc01aac23d?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -143,7 +143,7 @@ const Homepage = () => {
               className="bg-white rounded-lg shadow-lg overflow-hidden max-w-lg w-full h-80 relative group"
               style={{
                 backgroundImage:
-                  "url('https://images.unsplash.com/photo-1454496522488-7a8e488e8606')",
+                "url('https://images.unsplash.com/photo-1499883614574-22631ce07525?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -170,7 +170,7 @@ const Homepage = () => {
         <div className="lg:w-1/2 w-full h-full">
           <img
             className=" rounded-lg"
-            src="https://images.unsplash.com/photo-1720048170970-3848514c3d60?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
         </div>

@@ -13,7 +13,7 @@ const Impact = () => {
           assumenda!
         </p>
         <p className="text-blue-600 underline">Link...</p>
-        <h1 className="bg-purple-500 px-3 py-1 text-white rounded-2xl">Measure your Footprint now</h1>
+        <h1 className="bg-green-500 px-3 py-1 text-white rounded-2xl">Measure your Footprint now</h1>
       </div> <div className="h-full bg-zinc-200 flex flex-col items-center gap-4 p-4 rounded-lg">
         <h1 className="text-center text-2xl uppercase underline">Tool Name</h1>
         <p className="text-center lg:px-44">
@@ -23,7 +23,7 @@ const Impact = () => {
           assumenda!
         </p>
         <p className="text-blue-600 underline">Link...</p>
-        <h1 className="bg-purple-500 px-3 py-1 text-white rounded-2xl">Measure your Footprint now</h1>
+        <h1 className="bg-green-500 px-3 py-1 text-white rounded-2xl">Measure your Footprint now</h1>
       </div> <div className="h-full bg-zinc-200 flex flex-col items-center gap-4 p-4 rounded-lg">
         <h1 className="text-center text-2xl uppercase underline">Tool Name</h1>
         <p className="text-center lg:px-44">
@@ -33,7 +33,7 @@ const Impact = () => {
           assumenda!
         </p>
         <p className="text-blue-600 underline">Link...</p>
-        <h1 className="bg-purple-500 px-3 py-1 text-white rounded-2xl">Measure your Footprint now</h1>
+        <h1 className="bg-green-500 px-3 py-1 text-white rounded-2xl">Measure your Footprint now</h1>
       </div> <div className="h-full bg-zinc-200 flex flex-col items-center gap-4 p-4 rounded-lg">
         <h1 className="text-center text-2xl uppercase underline">Tool Name</h1>
         <p className="text-center lg:px-44">
@@ -43,7 +43,7 @@ const Impact = () => {
           assumenda!
         </p>
         <p className="text-blue-600 underline">Link...</p>
-        <h1 className="bg-purple-500 px-3 py-1 text-white rounded-2xl">Measure your Footprint now</h1>
+        <h1 className="bg-green-500 px-3 py-1 text-white rounded-2xl">Measure your Footprint now</h1>
       </div>
     </div>
   );

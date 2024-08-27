@@ -54,7 +54,7 @@ const CreateResearch = () => {
   return (
     <div>
       <button
-        className="py-1 px-2 w-full flex justify-center items-center gap-3 rounded-lg text-white bg-purple-500"
+        className="py-1 px-2 w-full flex justify-center items-center gap-3 rounded-lg text-white bg-green-500"
         onClick={() => document.getElementById("my_modal_3").showModal()}
       >
         Create Research
@@ -153,7 +153,7 @@ const CreateResearch = () => {
               </div>
               <button
                 type="submit"
-                className="rounded border-0 bg-purple-500 py-2 px-6 text-lg text-white hover:bg-purple-600 focus:outline-none"
+                className="rounded border-0 bg-green-500 py-2 px-6 text-lg text-white hover:bg-green-600 focus:outline-none"
               >
                 Submit
               </button>

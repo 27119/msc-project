@@ -40,7 +40,7 @@ const Dashboard = () => {
         } lg:flex flex-col absolute lg:sticky top-0 left-0 lg:w-1/5 min-w-64 w-full h-screen border-2 p-4 z-50`}
       >
         <div className="flex justify-between items-center pb-12">
-          <h1 className="text-center text-3xl">LOGO</h1>
+          <h1 className="text-center text-3xl font-bold">EcoPower</h1>
           <button
             className="lg:hidden  text-3xl"
             onClick={() => setDrawerOpen(false)}
@@ -52,7 +52,7 @@ const Dashboard = () => {
           <button
             className={`h-12 border shadow-xl rounded-xl w-56 px-5 py-2 -mb-px text-sm ${
               activeButton === "aboutUs"
-                ? "text-white border-b-2 bg-purple-500"
+                ? "text-white border-b-2 bg-green-500"
                 : "text-black "
             } sm:text-base whitespace-nowrap cursor-base focus:outline-none`}
             onClick={() => handleClick("aboutUs")}
@@ -62,7 +62,7 @@ const Dashboard = () => {
           <button
             className={`h-12  border shadow-xl rounded-xl w-56  px-5 py-2 -mb-px text-sm ${
               activeButton === "research"
-                  ? "text-white border-b-2 bg-purple-500"
+                  ? "text-white border-b-2 bg-green-500"
                 : "text-black "
             } sm:text-base whitespace-nowrap cursor-base focus:outline-none`}
             onClick={() => handleClick("research")}
@@ -72,7 +72,7 @@ const Dashboard = () => {
           <button
             className={`h-12  border shadow-xl rounded-xl w-56  px-5 py-2 -mb-px text-sm ${
               activeButton === "impact"
-                 ? "text-white border-b-2 bg-purple-500"
+                 ? "text-white border-b-2 bg-green-500"
                 : "text-black "
             } sm:text-base whitespace-nowrap cursor-base focus:outline-none`}
             onClick={() => handleClick("impact")}
@@ -82,7 +82,7 @@ const Dashboard = () => {
           <button
             className={`h-12  border shadow-xl rounded-xl w-56  px-5 py-2 -mb-px text-sm ${
               activeButton === "forum"
-                ? "text-white border-b-2 bg-purple-500"
+                ? "text-white border-b-2 bg-green-500"
                 : "text-black "
             } sm:text-base whitespace-nowrap cursor-base focus:outline-none`}
             onClick={() => handleClick("forum")}
@@ -92,13 +92,13 @@ const Dashboard = () => {
           {
             data.user? ( <button
               onClick={handleLogout}
-              className="h-12 w-56 rounded-lg flex justify-center items-center text-sm hover:bg-purple-500 text-center hover:text-white"
+              className="h-12 w-56 rounded-lg flex justify-center items-center text-sm hover:bg-green-500 text-center hover:text-white"
             >
               Log Out
             </button>):(
               <Link to={"/login"}
               
-              className="h-12 w-56 rounded-lg flex justify-center items-center text-sm hover:bg-purple-500 text-center hover:text-white"
+              className="h-12 w-56 rounded-lg flex justify-center items-center text-sm hover:bg-green-500 text-center hover:text-white"
             >
               Log In
             </Link>
@@ -117,7 +117,7 @@ const Dashboard = () => {
             <BiBell className="text-3xl" />
             <Link
               to={"/"}
-              className="bg-purple-500 text-white px-4 py-1 rounded-md"
+              className="bg-green-500 text-white px-4 py-1 rounded-md"
             >
               Home
             </Link>

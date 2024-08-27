@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaFacebook, FaGoogle } from "react-icons/fa"
+
 import { Link, useNavigate } from "react-router-dom"
 import axios from "axios"
 
@@ -38,35 +38,20 @@ const Signup = () => {
 
   return (
  
-    <div className="py-6 h-screen justify-center items-center">
-      <div className="flex flex-row rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
+    <div className="py-6 h-screen flex my-auto justify-center items-center">
+      <div className="flex w-full flex-row-reverse rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
         <div
           className="hidden lg:block lg:w-1/2 bg-cover"
           style={{
             backgroundImage:
-              'url("https://images.unsplash.com/photo-1628258334105-2a0b3d6efee1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+            'url("https://plus.unsplash.com/premium_photo-1675827055620-24d540e0892a?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
           }}
         />
          <div className="w-full p-8 lg:w-1/2">
-          <div className="flex gap-4 items-center justify-center mt-4 text-white rounded-lg shadow-md hover:bg-gray-100">
-            <div className="text-black py-3">
-              <FaGoogle className="text-xl" />
-            </div>
-            <h1 className=" py-3 text-center text-gray-600 font-bold">
-              Sign in with Google
-            </h1>
-          </div>
-          <div className="flex gap-4 items-center justify-center mt-4 text-white rounded-lg shadow-md hover:bg-gray-100">
-            <div className="text-black py-3">
-              <FaFacebook className="text-xl" />
-            </div>
-            <h1 className=" py-3 text-center text-gray-600 font-bold">
-              Sign in with Facebook
-            </h1>
-          </div>
-          <p className="py-3 text-center">OR</p>
+  
           {error && <p className="text-red-500 text-center">{error}</p>}
           {success && <p className="text-green-500 text-center">{success}</p>}
+          <h1 className="text-2xl font-bold">Create Your Account</h1>
           <form onSubmit={handleSubmit}>
             <div className="mt-4">
               <label className="block text-gray-700 text-sm font-bold mb-2">
@@ -126,13 +111,13 @@ const Signup = () => {
               />
             </div>
             <div className="mt-8">
-              <button className="bg-purple-700 text-white font-bold py-2 px-4 w-full rounded hover:bg-purple-600">
+              <button className="bg-green-700 text-white font-bold py-2 px-4 w-full rounded hover:bg-green-600">
                 Signup
               </button>
             </div>
           </form>
           <div className="mt-4 flex items-center justify-between">
-            <p>Already have an account? <Link to={"/login"} className="text-purple-500">Login</Link></p>
+            <p>Already have an account? <Link to={"/login"} className="text-green-500">Login</Link></p>
           </div>
         </div>
       </div>
